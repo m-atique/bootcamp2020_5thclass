@@ -7,7 +7,9 @@ function Parent(Props) {
         <div>
       <Child num = {Props.num}></Child>
       <Child2></Child2>
-      
+      <hr />
+      <hr />
+      <p>Quality test passed</p>
     </div> 
     );
 }
