@@ -9,10 +9,13 @@ function Child(Props){
     return(
       <center>
         <div>
-      <h3>The value imported from App = {value[0]}</h3>
+      <h3>The value imported from App </h3>
+      <h1>{value[0]}</h1>
       <br />
 
       <button onClick = {()=> value[1](++value[0])}>Update Number</button>
+      <br />
+      <br />
         </div>
         </center>
     )
