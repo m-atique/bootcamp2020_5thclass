@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ContentReducer = (state, action)=>{
     switch(action){
