@@ -13,7 +13,7 @@ const  Child2 =()=>{
             <br />
             <br />
             <button onClick= {()=> dispatch('increament')}>Increament</button>
-            <button onClick= {()=> dispatch('decreament')}>decreament</button>
+            {/* <button onClick= {()=> dispatch('decreament')}>decreament</button> */}
         </div>
         </center>
 
